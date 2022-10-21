@@ -1,0 +1,10 @@
+.transactionHistory{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transactionHead{
+    padding: 5px;
+    width: 150px;
+    background-color: rgb(35, 209, 236);
+}

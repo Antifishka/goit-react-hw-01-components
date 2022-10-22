@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import css from './StatisticItem.module.css';
+import { StatisticThumb } from './StatisticItem.Styled';
 
 export function StatisticItem({ label, percentage }) {
-    return <li className={css.item}>
+    return <StatisticThumb>
         <span className="label">{label}</span>
         <span className="percentage">{percentage}%</span>
-    </li>;
+    </StatisticThumb>;
 }
 
 StatisticItem.propTypes = {

@@ -1,0 +1,11 @@
+.transactionLine:nth-child(2n){
+    background-color: #f7f7f7;
+}
+
+.transactionCell{
+    padding: 5px;
+    width: 150px;
+    border: 1px solid #EEEEEE;
+
+    text-align: center;
+}

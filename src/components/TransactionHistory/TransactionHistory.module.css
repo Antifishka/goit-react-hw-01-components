@@ -1,10 +1,24 @@
 .transactionHistory{
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
+
+    color: #757575;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    border-collapse: collapse;
 }
 
 .transactionHead{
     padding: 5px;
-    width: 150px;
+    width: 180px;
+
+    text-transform: uppercase;
+
     background-color: rgb(35, 209, 236);
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
 }
